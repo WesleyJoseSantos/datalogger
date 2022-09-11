@@ -14,9 +14,9 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
-#include "Unity/src/unity.h"
-#include "mocks/sensors_mocks.h"
-#include "mocks/messages_mocks.h"
+#include "tests/Unity/src/unity.h"
+#include "tests/mocks/sensors_mocks.h"
+#include "tests/mocks/messages_mocks.h"
 #include "datalogger.h"
 
 #define DATALOGGER_DATA1_FILE DATALOGGER_DIR "/dat1.dat"
