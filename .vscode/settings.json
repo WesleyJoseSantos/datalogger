@@ -3,6 +3,7 @@
         "time.h": "c",
         "datalogger.h": "c",
         "types.h": "c",
-        "stat.h": "c"
+        "stat.h": "c",
+        "messages_mocks.h": "c"
     }
 }

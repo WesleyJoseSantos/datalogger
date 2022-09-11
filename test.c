@@ -17,7 +17,7 @@
 #include "Unity/src/unity.h"
 #include "mocks/sensors_mocks.h"
 #include "mocks/messages_mocks.h"
-#include "../main/datalogger.h"
+#include "datalogger.h"
 
 #define DATALOGGER_DATA1_FILE DATALOGGER_DIR "/dat1.dat"
 
