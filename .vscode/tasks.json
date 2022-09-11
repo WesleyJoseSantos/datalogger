@@ -2,40 +2,16 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc build active file",
-            "command": "/usr/bin/gcc",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "${workspaceFolder}/main/main.c",
-                "${workspaceFolder}/main/datalogger.c",
-                "-o",
-                "${workspaceFolder}/build/${fileBasenameNoExtension}"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "detail": "Build and run."
-        },
-        {
-            "type": "cppbuild",
             "label": "Unity Test",
             "command": "/usr/bin/gcc",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}/main/datalogger.c",
-                "${workspaceFolder}/tests/datalogger_tests.c",
+                "${workspaceFolder}/datalogger.c",
+                "${workspaceFolder}/test.c",
                 "${workspaceFolder}/tests/Unity/src/unity.c",
                 "-o",
-                "${workspaceFolder}/tests/build/${fileBasenameNoExtension}"
+                "${workspaceFolder}/build/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${fileDirname}"
